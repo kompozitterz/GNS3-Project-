@@ -1,9 +1,9 @@
 # SOC LAB GNS3 #
 
 ## 1. Configuration matérielle ##
-OS: Mac puce Sillicon  
-RAM: 16 Go
-Hyperviseur: UTM  
+    * OS: Mac puce Sillicon  
+    * RAM: 16 Go
+    * Hyperviseur: UTM  
 
 ## 1. Introduction ##
 
