@@ -17,18 +17,14 @@ Avant de lancer GNS3, il est impératif de s'assurer qu'aucun conteneur ne crée
 Connectez-vous à la console de la GNS3 VM.
 Supprimer les conteneurs persistants qui bloquent les ports TCP (5010, 5011) :
 
-    ```sh
     docker rm -f $(docker ps -a -q)
-    ```
 
 ### 2. Ouverture du Projet
 
 Lancez le GNS3 Client : 
 
-    ```sh
     source gns3-env/bin/activate
     gns3server --host 0.0.0.0 --port 3080
-    ```
 
 Vérifiez la connexion au "Compute local" (127.0.0.1:3080) dans les logs.
 Ouvrez GNS3 (application) sur la machine hôte et le projet SOC LAB gns3.
