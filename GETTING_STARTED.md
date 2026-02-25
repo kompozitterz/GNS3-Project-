@@ -1,11 +1,9 @@
 Ce guide explique comment initialiser et lancer l'infrastructure réseau segmentée sous GNS3 avec Docker.
 ## Prérequis
 
-    GNS3 Client (v2.2.56.1 ou supérieure).
-
-    GNS3 VM installée et configurée.
-
-    Les images Docker suivantes téléchargées dans GNS3 :
+GNS3 Client (v2.2.56.1 ou supérieure).
+GNS3 VM installée et configurée.
+Les images Docker suivantes téléchargées dans GNS3 :
 
         alpine:latest (Routeur).
 
@@ -30,16 +28,15 @@ Avant de lancer GNS3, il est impératif de s'assurer qu'aucun conteneur ne crée
 
 ### 2. Ouverture du Projet
 
-    Lancez le GNS3 Client : 
+Lancez le GNS3 Client : 
 
     ```sh
     source gns3-env/bin/activate
     gns3server --host 0.0.0.0 --port 3080
     ```
 
-    Vérifiez la connexion au "Compute local" (127.0.0.1:3080) dans les logs.
-
-    Ouvrez GNS3 (application) sur la machine hôte et le projet SOC LAB gns3.
+Vérifiez la connexion au "Compute local" (127.0.0.1:3080) dans les logs.
+Ouvrez GNS3 (application) sur la machine hôte et le projet SOC LAB gns3.
 
 ### 3. Initialisation du Réseau
 
